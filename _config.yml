@@ -57,7 +57,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: My awesome project
+        title: 1. My awesome project
         link: github.com/cchw
         link_text: github.com/cchw 
         additional_links:
@@ -72,12 +72,12 @@ content:
         description: | # this will include new lines to allow paragraphs
           I started this project as a way if learning <mark>Data Science</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
      
-      - layout: top-middle
-        description: |
-          ---
+      # - layout: top-middle
+      #   description: |
+      #     ---
 
       - layout: top-middle
-        title: My other awesome project
+        title: 2. My other awesome project
         link: github.com/cchw
         link_text: github.com/cchw 
         additional_links:
@@ -96,23 +96,32 @@ content:
   - title: Skills
     layout: text
     content: |
-      **Programming:**  Python, SQL, Bash, Lua  
-      **Databases:**    MySQL, SQLite, DuckDB, Sybase, Oracle  
-      **Tools:**        git, github, docker, pyenv, uv, Unix CLI
-      **Networking:**   TCP/IP, FIX Protocol, Subnetting, VPN, SNMP
+      **Programming**:&nbsp;&nbsp;&nbsp;&nbsp; Python · SQL · Bash · Lua  
+      **Databases**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MySQL · SQLite · DuckDB · Sybase · Oracle  
+      **Tools**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; tableau, git · GitHub · Docker · pyenv · uv · Unix CLI, jq  
+      **Networking**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TCP/IP · FIX Protocol · Subnetting · VPN · SNMP
 
-  # - title: Skills # Title for the section
-  #   layout: list # Type of content section (list/text)
-  #   content:
-  #     - layout: left
-  #       title: Programming
-  #       description: | # this will include new lines to allow paragraphs
-  #         - Python, SQL, Bash, Lua
+
+  # - title: Skills
+  #   layout: text
+  #   content: |
+  #     <pre>
+  #     Programming     Python · SQL · Bash · Lua
+  #     Databases       MySQL · SQLite · DuckDB · Sybase · Oracle
+  #     Tools           git · GitHub · Docker · pyenv · uv · Unix CLI
+  #     Networking      TCP/IP · FIX Protocol · Subnetting · VPN · SNMP
+  #     </pre>
   #
-  #     - layout: left
-  #       title: Database
-  #       description: | # this will include new lines to allow paragraphs
-  #         - MYSQL, SQLite, Duckdb, Sybase, Oracle
+  # - title: Skills
+  #   layout: text
+  #   content: |
+  #     | **Category**   | **Skills** |
+  #     |----------------|------------|
+  #     | Programming    | Python, SQL, Bash, Lua |
+  #     | Databases      | MySQL, SQLite, DuckDB, Sybase, Oracle |
+  #     | Tools          | git, GitHub, Docker, pyenv, uv, Unix CLI |
+  #     | Networking     | TCP/IP, FIX Protocol, Subnetting, VPN, SNMP |
+
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -147,8 +156,8 @@ content:
         title: Investment Technology Group
         link: https://en.wikipedia.org/wiki/Investment_Technology_Group
         link_text: Investment Technology Group
-        sub_title: Fix Integration Specialist
-        caption: June 2014 - March 2017
+        sub_title: Fix Integration Specialist, Application Support
+        caption: October 2010 - March 2017
         # quote: >
         #    Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
@@ -166,12 +175,13 @@ content:
     content:
       - layout: top-middle
         title: Stony Brook University
+        sub_title: Stony Brook, NY
         link: https://www.stonybrook.edu
-        link_text: Stony Brook Unversity
+        # link_text: Stony Brook Unversity
       - layout: middle
         description: | # this will include new lines to allow paragraphs
-          - Bachelor of Science in Applied Mathematics and Statistics
-          - Bachelor of Arts in Economics
+          - *Bachelor of Science in [Applied Mathematics and Statistics](https://www.stonybrook.edu/commcms/ams/)*
+          - *Bachelor of Arts in [Economics](https://www.stonybrook.edu/commcms/economics/)*
 
 
   # - title: Education # Title for the section
