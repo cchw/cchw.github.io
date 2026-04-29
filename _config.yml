@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Cheston Chow
-title: Python Programmer / Data Analyst
+title: Application Support Engineer
 email: cheston.chow@gmail.com 
 website: cchw.github.io
 
@@ -48,9 +48,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  Unix and QA Engineer with over 10 years of experience supporting mission-critical systems in a Linux/Unix environment. Skilled in scripting (Bash, Python, SQL), with strong background in system testing, release management, and troubleshooting. Proven ability to document processes, train staff, and translate complex technical issues into actionable solutions. Hands-on experience in automation, monitoring, and performance optimization.
-
-  I am most skilled in: <mark>Problem solving</mark> and <mark>Getting things done</mark>
+  System and Application Support Engineer with 10+ years of experience in Linux/Unix production environments supporting financial trading platforms. Specialized in FIX protocol connectivity, trade execution support, and real-time incident response for fintech clients. Proven ability to monitor production systems, investigate anomalies using logs and metrics, coordinate deployments, and automate operational workflows using Python and Bash. Track record of supporting client integrations and adhering to SLA commitments in mission-critical financial services environments.
 
 content:
   - title: Projects # Title for the section
@@ -96,10 +94,11 @@ content:
   - title: Skills
     layout: text
     content: |
-      **Programming**:&nbsp;&nbsp;&nbsp;&nbsp; Python · SQL · Bash · Lua  
-      **Databases**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MySQL · SQLite · DuckDB · Sybase · Oracle  
-      **Tools**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; tableau, git · GitHub · Docker · pyenv · uv · Unix CLI, jq  
-      **Networking**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TCP/IP · FIX Protocol · Subnetting · VPN · SNMP
+      **Networking**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FIX Protocol · TCP/IP · Subnetting · VPN · SNMP
+      **Programming**:&nbsp;&nbsp;&nbsp;&nbsp; Python · Bash · SQL · Lua
+      **Monitoring**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; production observability · log analysis · alert response · cron jobs · Jenkins
+      **Database**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Oracle · Sybase · MySQL · SQLite
+      **Tools**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Docker · git · GitHub · Jira · Unix CLI
 
 
   # - title: Skills
@@ -132,42 +131,43 @@ content:
         # link_text: boringcompany.com
         sub_title: Automation Engineer / Assistant Property Manager
         caption: July 2024 - August 2025
-        # quote: >
-        #    Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-          - Designed and automated Unix shell and Python scripts to streamline operational processes, reduced manual workload, and increased reliability.
-          - Built and maintained data collection pipelines (Python, pandas, BeautifulSoup, APIs) ensuring accuracy and timely delivery of economic and operational datasets.
+          - Designed and automated Unix shell and Python scripts to streamline operational processes, reducing manual workload and increasing reliability.
+          - Built and maintained data collection pipelines (Python, pandas, APIs) ensuring accuracy and timely delivery of operational datasets.
 
       - layout: left
-        title: Virtua Financial, Inc.
+        title: Virtu Financial, Inc.
         link: https://www.virtu.com/
         link_text: virtu.com
         sub_title: Quality Assurance Engineer
         caption: March 2017 - January 2020
-        # quote: >
-        #    Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-          - Led QA testing of mission-critical trading matching engine, (POSIT ATS), developed and executing test cases across Linux environments to validate functionality, performance and reliability.
-          - Automated testing workflows using Python, SQL, Bash scripts, improving defect detection and reducing release cycle time.
-          - Migrated backend application servers from Solaris to Linux, optimizing performance and standardizing environments.
-          - Oversaw our global QA team, coordinated with global engineers, trained junior staff and documented procedures.
+          - Monitored and validated mission-critical trading platform (POSIT ATS) across Linux environments, ensuring production reliability and performance under live market conditions.
+          - Automated testing and monitoring workflows using Bash, Python, and SQL scripts, improving defect detection and reducing release cycle time.
+          - Migrated QA application servers from Solaris to Linux, optimizing performance and standardizing environments.
+          - Oversaw global QA team, coordinated with global engineers, trained junior staff, and documented procedures.
 
       - layout: left
-        title: Investment Technology Group
+        title: Investment Technology Group (ITG)
         link: https://en.wikipedia.org/wiki/Investment_Technology_Group
         link_text: Investment Technology Group
-        sub_title: Fix Integration Specialist, Application Support
-        caption: October 2010 - March 2017
-        # quote: >
-        #    Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        sub_title: FIX Integration and ATS Support Analyst
+        caption: June 2014 - March 2017
         description: | # this will include new lines to allow paragraphs
-          - Configured and maintained FIX connectivity between client OMS and internal trading, matching and routing engines, ensuring secure and reliable integration.
-          - Performed system-level testing, troubleshooting, and log analysis and resolve connectivity and routing issues in real time.
-          - Automated trade reporting pipelines with shell scripts, Python, and SQ, leveraging cron jobs.
-          - Executed releases of core trading components in Linux environments, managing change tickets and developed installation scripts.
-          - Performed production release of the FIX routing engine and the dark pool matching engine, coordinating deployments, writing install scripts, and validating roll-out success.
-          - Monitored critical End-of-Day batch jobs, analyzing logs and system performance.
-          - Authored support run-books and collaborated with infrastructure teams to document processes.
+          - Configured and maintained FIX connectivity between client OMS platforms and Linux-based trading engines, ensuring secure and reliable client integrations.
+          - Served as primary technical point of contact for client FIX integration issues, fielding inquiries and driving issues to resolution within SLA commitments.
+          - Investigated system anomalies by correlating logs and metrics to resolve connectivity, routing, and trade execution issues in real time.
+          - Executed releases of core trading components in Linux environments, managing change management tickets and installation scripts.
+          - Automated trade reporting pipelines with Python, Bash, and SQL, leveraging cron jobs to ensure timely delivery.
+
+      - layout: left
+        title: Investment Technology Group (ITG)
+        sub_title: Production Support Analyst
+        caption: October 2010 - February 2014
+        description: | # this will include new lines to allow paragraphs
+          - Executed production releases of FIX routing engine and dark pool matching engine within Linux/Unix environments, coordinating deployments and validating rollout success.
+          - Monitored critical End-of-Day batch jobs, analyzing logs and system performance metrics to detect anomalies and execute corrective actions.
+          - Authored support run-books and conducted post-incident analysis to standardize incident response procedures and prevent recurrence.
 
 
   - title: Education
