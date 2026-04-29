@@ -51,54 +51,54 @@ about_content: | # this will include new lines to allow paragraphs
   System and Application Support Engineer with 10+ years of experience in Linux/Unix production environments supporting financial trading platforms. Specialized in FIX protocol connectivity, trade execution support, and real-time incident response for fintech clients. Proven ability to monitor production systems, investigate anomalies using logs and metrics, coordinate deployments, and automate operational workflows using Python and Bash. Track record of supporting client integrations and adhering to SLA commitments in mission-critical financial services environments.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: 1. My awesome project
-        link: github.com/cchw
-        link_text: github.com/cchw 
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/cchw
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>Data Science</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-     
-      # - layout: top-middle
-      #   description: |
-      #     ---
-
-      - layout: top-middle
-        title: 2. My other awesome project
-        link: github.com/cchw
-        link_text: github.com/cchw 
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/cchw
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>Data Science</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+  # - title: Projects # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: top-middle
+  #       title: 1. My awesome project
+  #       link: github.com/cchw
+  #       link_text: github.com/cchw 
+  #       additional_links:
+  #         - title:  sproogen/modern-resume-theme
+  #           icon: fab fa-github
+  #           url: github.com/cchw
+  #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #         #   icon: fab fa-github
+  #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+  #       quote: >
+  #         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+  #       description: | # this will include new lines to allow paragraphs
+  #         I started this project as a way if learning <mark>Data Science</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+  #
+  #     # - layout: top-middle
+  #     #   description: |
+  #     #     ---
+  #
+  #     - layout: top-middle
+  #       title: 2. My other awesome project
+  #       link: github.com/cchw
+  #       link_text: github.com/cchw 
+  #       additional_links:
+  #         - title:  sproogen/modern-resume-theme
+  #           icon: fab fa-github
+  #           url: github.com/cchw
+  #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #         #   icon: fab fa-github
+  #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+  #       quote: >
+  #         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+  #       description: | # this will include new lines to allow paragraphs
+  #         I started this project as a way if learning <mark>Data Science</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
 
   - title: Skills
     layout: text
     content: |
-      **Networking**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FIX Protocol · TCP/IP · Subnetting · VPN · SNMP
-      **Programming**:&nbsp;&nbsp;&nbsp;&nbsp; Python · Bash · SQL · Lua
-      **Monitoring**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; production observability · log analysis · alert response · cron jobs · Jenkins
-      **Database**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Oracle · Sybase · MySQL · SQLite
-      **Tools**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Docker · git · GitHub · Jira · Unix CLI
+      **Networking**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FIX Protocol · TCP/IP · Subnetting · VPN · SNMP  
+      **Programming**:&nbsp;&nbsp;&nbsp;&nbsp; Python · Bash · SQL · Lua  
+      **Monitoring**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; production observability · log analysis · alert response · cron jobs · Jenkins  
+      **Database**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Oracle · Sybase · MySQL · SQLite  
+      **Tools**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Docker · git · GitHub · Jira · Unix CLI  
 
 
   # - title: Skills
