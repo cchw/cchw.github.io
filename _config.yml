@@ -94,12 +94,12 @@ content:
   - title: Skills
     layout: text
     content: |
-      **Systems**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; UNIX (Solaris) · Linux (Red Hat, Ubuntu)
-      **Scripting**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; UNIX shell scripting (Bash, KSH) · Python · SQL · Lua
-      **Automation**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cron jobs · Jenkins · custom monitoring scripts
-      **Connectivity**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SFTP · FTPS · PGP encryption · FIX Protocol · TCP/IP · VPN · SNMP
-      **Database**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Oracle · Sybase · MySQL · SQLite
-      **Tools**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; git · GitHub · Jira · jq
+      **Systems**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; UNIX (Solaris) · Linux (Red Hat, Ubuntu)  
+      **Scripting**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; UNIX shell scripting (Bash, KSH) · Python · SQL · Lua  
+      **Automation**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cron jobs · Jenkins · custom monitoring scripts  
+      **Connectivity**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SFTP · FTPS · PGP encryption · FIX Protocol · TCP/IP · VPN · SNMP  
+      **Database**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Oracle · Sybase · MySQL · SQLite  
+      **Tools**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; git · GitHub · Jira · jq  
 
 
   # - title: Skills
