@@ -8,7 +8,7 @@ version: 2
 # Personal info
 name: Cheston Chow
 title: Application Support Engineer
-email: cheston.chow@gmail.com 
+email: cheston.chow@gmail.com
 website: cchw.github.io
 
 # Dark Mode (true/false/never)
@@ -48,7 +48,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  System and Application Support Engineer with 10+ years of experience in Linux/Unix production environments supporting financial trading platforms. Specialized in FIX protocol connectivity, trade execution support, and real-time incident response for fintech clients. Proven ability to monitor production systems, investigate anomalies using logs and metrics, coordinate deployments, and automate operational workflows using Python and Bash. Track record of supporting client integrations and adhering to SLA commitments in mission-critical financial services environments.
+  Application Support Engineer with 10+ years of experience supporting mission-critical financial systems in UNIX/Linux production environments. Strong background in production support and monitoring, end-of-day batch processing, secure partner connectivity onboarding, and real-time troubleshooting of transmission and routing failures. Skilled in UNIX shell scripting, Python, and SQL to automate file delivery pipelines, job scheduling (cron), and system monitoring. Proven ability to coordinate production releases with operations and vendor staff, author run-books, and support testers through development and production.
 
 content:
   # - title: Projects # Title for the section
@@ -94,11 +94,12 @@ content:
   - title: Skills
     layout: text
     content: |
-      **Networking**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FIX Protocol · TCP/IP · Subnetting · VPN · SNMP  
-      **Programming**:&nbsp;&nbsp;&nbsp;&nbsp; Python · Bash · SQL · Lua  
-      **Monitoring**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; production observability · log analysis · alert response · cron jobs · Jenkins  
-      **Database**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Oracle · Sybase · MySQL · SQLite  
-      **Tools**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Docker · git · GitHub · Jira · Unix CLI  
+      **Systems**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; UNIX (Solaris) · Linux (Red Hat, Ubuntu)
+      **Scripting**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; UNIX shell scripting (Bash, KSH) · Python · SQL · Lua
+      **Automation**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cron jobs · Jenkins · custom monitoring scripts
+      **Connectivity**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SFTP · FTPS · PGP encryption · FIX Protocol · TCP/IP · VPN · SNMP
+      **Database**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Oracle · Sybase · MySQL · SQLite
+      **Tools**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; git · GitHub · Jira · jq
 
 
   # - title: Skills
@@ -142,9 +143,9 @@ content:
         sub_title: Quality Assurance Engineer
         caption: March 2017 - January 2020
         description: | # this will include new lines to allow paragraphs
-          - Monitored and validated mission-critical trading platform (POSIT ATS) across Linux environments, ensuring production reliability and performance under live market conditions.
+          - Led QA testing of mission-critical trading platform (POSIT ATS) across Linux environments, developing and executing test cases to validate functionality, performance, and reliability in development and production.
           - Automated testing and monitoring workflows using Bash, Python, and SQL scripts, improving defect detection and reducing release cycle time.
-          - Migrated QA application servers from Solaris to Linux, optimizing performance and standardizing environments.
+          - Migrated QA application servers from Solaris (UNIX) to Linux, optimizing performance and standardizing environments.
           - Oversaw global QA team, coordinated with global engineers, trained junior staff, and documented procedures.
 
       - layout: left
@@ -154,20 +155,19 @@ content:
         sub_title: FIX Integration and ATS Support Analyst
         caption: June 2014 - March 2017
         description: | # this will include new lines to allow paragraphs
-          - Configured and maintained FIX connectivity between client OMS platforms and Linux-based trading engines, ensuring secure and reliable client integrations.
-          - Served as primary technical point of contact for client FIX integration issues, fielding inquiries and driving issues to resolution within SLA commitments.
-          - Investigated system anomalies by correlating logs and metrics to resolve connectivity, routing, and trade execution issues in real time.
-          - Executed releases of core trading components in Linux environments, managing change management tickets and installation scripts.
-          - Automated trade reporting pipelines with Python, Bash, and SQL, leveraging cron jobs to ensure timely delivery.
+          - Onboarded and configured new client and partner FIX connections between OMS platforms and Linux-based trading engines, ensuring secure and reliable integrations.
+          - Troubleshot connectivity, routing, and message-transmission failures with external partners in real time through system-level testing and log analysis.
+          - Automated end-of-day trade reporting and file delivery pipelines with shell scripting, Python, and SQL, scheduled via cron jobs to ensure timely transmission.
+          - Executed releases of core trading components in Linux environments, managing change tickets and installation scripts.
 
       - layout: left
         title: Investment Technology Group (ITG)
         sub_title: Production Support Analyst
         caption: October 2010 - February 2014
         description: | # this will include new lines to allow paragraphs
-          - Executed production releases of FIX routing engine and dark pool matching engine within Linux/Unix environments, coordinating deployments and validating rollout success.
-          - Monitored critical End-of-Day batch jobs, analyzing logs and system performance metrics to detect anomalies and execute corrective actions.
-          - Authored support run-books and conducted post-incident analysis to standardize incident response procedures and prevent recurrence.
+          - Executed production releases of FIX routing engine and dark pool matching engine within Linux/UNIX environments, coordinating deployments with operations staff, writing install scripts, and validating roll-out success.
+          - Monitored critical End-of-Day batch jobs, analyzing logs and system performance to detect and resolve failures against production support standards.
+          - Authored support run-books and collaborated with infrastructure teams to document and standardize incident response procedures.
 
 
   - title: Education
