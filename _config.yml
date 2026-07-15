@@ -163,7 +163,7 @@ content:
       - layout: left
         title: Investment Technology Group (ITG)
         sub_title: Production Support Analyst
-        caption: October 2010 - February 2014
+        caption: October 2010 - June 2014
         description: | # this will include new lines to allow paragraphs
           - Executed production releases of FIX routing engine and dark pool matching engine within Linux/UNIX environments, coordinating deployments with operations staff, writing install scripts, and validating roll-out success.
           - Monitored critical End-of-Day batch jobs, analyzing logs and system performance to detect and resolve failures against production support standards.
